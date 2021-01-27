@@ -3,9 +3,6 @@ import {useRecoilState} from "recoil";
 import {studentState} from "../state/StudentState";
 import DataTable from 'react-data-table-component';
 import {Student} from "../state/Student";
-import {IconButton} from "@material-ui/core";
-import DeleteIcon from "@material-ui/icons/Delete";
-import EditIcon from '@material-ui/icons/Edit';
 import {useHistory} from "react-router";
 import {ActionColumn} from "./ActionColumn";
 
